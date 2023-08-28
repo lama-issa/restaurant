@@ -1,0 +1,416 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    overflow: auto;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.logo img {
+    height: 100px;
+    width: 200px;
+}
+
+.header-contant-items {
+    text-align: center;
+    padding-top: 300px;
+    
+    color: white;
+    font-style: italic;
+    font-size: 20px;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.click {
+    width: 30px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 50px;
+    color: white;
+
+}
+
+
+.header-contant {
+    background-image: url(img/r1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.link-nav:hover {
+    color: orange;
+}
+
+.cont {
+    width: 80%;
+    margin: auto;
+}
+
+.logo {
+    width: 35%;
+    float: left;
+}
+
+.header ul {
+    list-style-type: none;
+}
+
+.header li {
+    display: inline-block;
+}
+
+.link-nav {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+
+.nav {
+    width: 65%;
+    float: left;
+    text-align: right;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.h2-menu {
+    margin-bottom: 10px;
+    font-family: 'Pacifico', cursive;
+}
+
+.menu-contener {
+    background-image: url(img/abtbg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 130px;
+    padding-bottom: 130px;
+}
+
+.menu-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-mnue {
+    margin-right: 100px;
+}
+
+.p-menu {
+    width: 500px;
+    font-size: 20px;
+}
+
+.Features-contener {
+  background-color:gray;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+
+.Features-items {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.box-Features {
+    background-image: url(img/textbg.jpg);
+    padding: 50px;
+
+}
+
+
+.Delivery-contener {
+    text-align: center;
+    background-image: url(img/textbg.jpg);
+    padding: 40px 170px;
+}
+
+.Delivery-items {
+    overflow: hidden;
+    text-align: center;
+}
+
+.Delivery-item {
+    float: left;
+    width: 25%;
+    position: relative;
+}
+
+.ovelay {
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+   
+}
+
+.Delivery-item:hover .ovelay {
+    opacity: .8;
+  
+}
+
+.ovelay-contant {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+
+.ovelay-contant .click {
+    background-color: black;
+}
+
+.h2-Features {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.img-dring {
+    width: 30%;
+    height: 50%;
+}
+
+.img-background {
+    background-color: white;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.h2-new {
+    font-size: 35px;
+    color: white;
+}
+
+.img-background p {
+    padding: 20px;
+}
+
+.img-background ul {
+    list-style-type: none;
+
+}
+
+.News-header1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.News-contener {
+    background-image: url(img/newsbg.jpg);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+
+
+.page-contener {
+    background-repeat: no-repeat;
+    height: 800px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+
+.img-google {
+    margin-right: 30px;
+}
+
+.h-page-contener {
+    color: white;
+}
+
+.page-h4 {
+    font-size: 20px;
+    font-family: 'Pacifico', cursive;
+}
+
+.page-h2 {
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.page-h3 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.foter-contener {
+    background-image: url(img/footerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: auto;
+    padding: 100px;
+}
+
+.cont-foter {
+    float: left;
+    width: 33.3333333%;
+    text-align: center;
+    color: white;
+}
+
+input:focus {
+    border-color: orange;
+    outline: none;
+}
+
+.submit-buttom {
+    background-color: orange;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
+
+.a-tel-mail {
+    color: orange;
+}
+
+i {
+    font-size: 25px;
+    color: orange;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.p-clik {
+    font-size: 25px;
+    width: 50%;
+    margin: auto;
+    color: black;
+}
+
+.div-clik {
+    background-image: url(img/abtbg.jpg);
+    text-align: center;
+    padding: 300px;
+}
+
+.name {
+    color: white;
+}
+
+@media(min-width:576px) and (max-width:992px){
+   
+        .logo {
+            width: 100%;
+            float: none;
+        }
+        
+      
+        
+        .nav {
+            width: 100%;
+            float: none;
+            text-align: right;
+            margin-top: 40px;
+            margin-bottom: 40px;
+        }
+    
+        
+    }
+
+
+
+@media(max-width:768px) {
+    .link-nav {
+        padding: 5px;
+    }
+
+    .header-contant {
+        background-size: 100% 100%;
+        height: 500px;
+    }
+
+    .header-contant-items {
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .menu-contener p {
+        width: 50%;
+        margin: auto;
+    }
+
+    .menu-items {
+        text-align: center;
+        display: inline;
+    }
+
+    .Features-contener {
+        padding: 50px;
+    }
+
+    .Features-items {
+        text-align: center;
+        display: inline;
+    }
+
+    .cont-foter {
+        width: 100%;
+        margin-bottom: 100px;
+    }
+
+    .foter-contener {
+        padding: 50px 10px;
+
+    }
+
+    .Delivery-item {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+.tail{
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+.sub-butt{
+    background-color: cadetblue;
+    color: white;
+    padding: 15px;
+    border-radius: 4px;
+}
+.in-f input{
+padding: 10px;
+width: 400px;
+}
+.form-div{
+    border: 3px solid cadetblue;
+    display: inline-block;
+    padding: 20px;
+    
+}
